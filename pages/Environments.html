@@ -2,23 +2,224 @@
 
 <!doctype html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>index</title>
-	
-	<style>
+    <head>
+        <meta charset="utf-8">
+        <title>Contact</title>
 
-	</style>
-	
-</head>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+		    body{
+			    background: url(../images/maincastle.jpg) no-repeat center center fixed;
+			    background-size: cover;
+			    z-index: 1;
+		    }
 
-<body>
-	<h1>Camden Schwiebert</h1>
-	<hr>
-	<div class="tabs">
-		<div class="page" id="env">
-				Environments
-		</div>
-	</div>
-</body>
+		    #overlay {
+  			    position: fixed;
+  			    width: 100%;
+  			    height: 100%;
+			    top: 0;
+  			    left: 0;
+  			    right: 0;
+  			    bottom: 0;
+  			    background-color: rgba(0,0,0,0.75); /* for opacity*/
+  			    z-index: 2;
+		    }
+
+			h3{
+				position: relative;
+				color: white;
+				font-size: 60px;
+				text-align: center;
+				z-index: 3;
+			}
+			table{
+				text-align: center;
+				position: relative;
+				z-index: 3;
+			}
+
+
+            .page{
+			    font-size: 30px;
+                display: inline;
+            }
+
+            #info{
+                float: left;
+                background-color: aquamarine;
+                width: 50%;
+            }
+            #form{
+                float: right;
+                background-color: red;
+                width: 50%;
+            }
+
+
+            .tabs{
+			    text-align: center;
+		    }   
+            a:active{
+			    color: white;
+			    text-decoration: none;
+            }
+            a:hover{
+                color: white;
+                text-decoration: none;
+            }
+            a:link{
+                color: white;
+                text-decoration: none;
+            }
+            a:visited{
+                color: white;
+                text-decoration: none;
+            }
+
+            #port{
+                font-size: 35px;
+                margin-right: 60px;
+                text-decoration: none;
+                position: relative;
+                z-index: 3;
+            }
+            #light{
+                font-size: 35px;
+                margin-right: 60px;
+                margin-left: 60px;
+                text-decoration: none;
+                position: relative;
+                z-index: 3;
+            }
+            #model{
+                font-size: 35px;
+                margin-right: 60px;
+                margin-left: 60px;
+                text-decoration: none;
+                position: relative;
+                z-index: 3;
+            }
+            #video{
+                font-size: 35px;
+                margin-right: 60px;
+                margin-left: 60px;
+                text-decoration: none;
+                position: relative;
+                z-index: 3;
+            }
+            #contact{
+                font-size: 35px;
+                margin-left: 60px;
+                text-decoration: none;
+                position: relative;
+                z-index: 3;
+            }
+
+        </style>
+
+    </head>
+
+    <header>
+        <div class="tabs">
+			<div class="page" id="port">
+                <a href="../index.html">
+                    Portfolio
+                </a>
+			</div>	
+            <div class="page" id="light">
+                <a href="Lighting.html">
+                    Lighting
+                </a>
+            </div>
+            <div class="page" id="model">
+                <a href="Modeling.html"> 
+                    Modeling
+                </a>
+            </div>
+            <div class="page" id="video">
+                <a href="Videos.html"> 
+                    Videos
+                </a>
+            </div>
+			<div class="page" id="contact">
+				<a href="Contact.html">
+					Contact
+				</a>
+            </div>
+        </div>
+    </header>
+
+    <body>
+        <div id="overlay"></div>
+
+		<Table cellspacing="20" cellpadding="15" width="100%" height="1000px" align="center">
+			<tr>
+				<td colspan="2">
+					<h3 align="center">
+						Castle Corridor
+					</h3>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<img src="../images/maincastle.jpg" alt="MainView" width="720" height="405">
+				</td>
+				<td>
+					<img src="../images/castle2.jpg" alt="MainView" width="720" height="405">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<img src="../images/castle3.jpg" alt="MainView" width="720" height="405">
+				</td>
+				<td>
+					<img src="../images/castle4.jpg" alt="MainView" width="720" height="405">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<img src="../images/castle5.jpg" alt="MainView" width="720" height="405">
+				</td>
+				<td>
+					<img src="../images/castle6.jpg" alt="MainView" width="720" height="405">
+				</td>
+			</tr>
+		</table>
+
+		<Table cellspacing="20" cellpadding="15" width="100%" height="1000px" align="center">
+			<tr>
+				<td colspan="2">
+					<h3 align="center">
+						Living Room
+					</h3>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<img src="../images/mainroom.jpg" alt="MainView" width="720" height="405">
+				</td>
+				<td>
+					<img src="../images/room2.jpg" alt="MainView" width="720" height="405">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<img src="../images/room3.jpg" alt="MainView" width="720" height="405">
+				</td>
+				<td>
+					<img src="../images/room4.jpg" alt="MainView" width="720" height="405">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<img src="../images/room5.jpg" alt="MainView" width="720" height="405">
+				</td>
+				<td>
+					<img src="../images/room6.jpg" alt="MainView" width="720" height="405">
+				</td>
+			</tr>
+		</table>
+    </body>
+
 </html>
